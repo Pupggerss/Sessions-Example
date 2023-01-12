@@ -1,0 +1,11 @@
+name: Sessions-Example
+main: NotYoel\sessions_example\Main
+api: 4.0.0
+version: 1.0.0
+author: NotYoel
+
+permissions:
+  "balance.command":
+    default: true
+  "setbalance.command":
+    default: true
