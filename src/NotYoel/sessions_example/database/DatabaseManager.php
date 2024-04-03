@@ -18,7 +18,7 @@ class DatabaseManager{
         $this->database = new \SQLite3(Main::getInstance()->getDataFolder() . "Database.db");
 
         // Creates a table if there isn't one (This line excutes on the plugin's first ever run.)
-        $this->database->exec("CREATE TABLE IF NOT EXISTS player(uuid TXT PRIMARY KEY, username TXT, money INT)");
+        $this->database->exec("CREATE TABLE IF NOT EXISTS player(xuid TXT PRIMARY KEY, username TXT, money INT)");
     }
 
     public function getDatabase() : \SQLite3{

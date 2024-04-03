@@ -16,14 +16,14 @@ class Session{
     */
 
     public function __construct(
-        private string $uuid,
+        private string $xuid,
         private string $username,
         private int $money
     ){
     }
 
-    public function getUuid() : string{
-        return $this->uuid;
+    public function getXuid() : string{
+        return $this->xuid;
     }
 
     public function getUsername() : string{
