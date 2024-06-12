@@ -42,7 +42,7 @@ used [libasynql](https://github.com/poggit/libasynql). Do all the requirements t
 The Session Manager is a private array that holds all player sessions.
 
 ```injectablephp
-private array $sessions = []; //All layer sessions will be added to this array 
+private array $sessions = []; //All player sessions will be added to this array 
 ```
 
 In the Session Manager we create, close and get player sessions.
