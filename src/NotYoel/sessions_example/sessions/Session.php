@@ -7,13 +7,6 @@ use pocketmine\Server;
 
 class Session{
 
-    /* Here we store all the player's data.
-       This data can be modified while their online
-       Ex: Their Money can change if you use the '/setbalance' command.
-
-       When they leave we get all of this data back and add it into the
-       database.
-    */
 
     public function __construct(
         private string $xuid,
