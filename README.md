@@ -85,3 +85,5 @@ database then remove the session from the array.
 
 The createSession method must be called on player join or login (preferably login) and close session must be called on
 player quit.
+
+##SAVE THE TO DATABASE IN INTERVALS OR EVERYTIME THE THE SESSION UPDATES USING AN EVENT
